@@ -1,0 +1,53 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=14
+    os=Windows
+
+[requires]
+    SDL2/2.Y.Z
+    SDL2_ttf/2.Y.Z
+    glew/2.Y.Z
+    glm/0.9.8.0
+    stb_image/2.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=14
+    os=Windows
+
+[full_requires]
+    SDL2/2.0.4@lasote/stable:91ccb03e0dea4be83e98d3bb24f796dc48e5be84
+    SDL2_ttf/2.0.14@lasote/ci:7a28a690ccc42d08a5dbcf5eb60cb74bb78fa139
+    bzip2/1.0.6@lasote/stable:f6bcf0d95fafcf303dfebe42c8562386d4cdbf69
+    freetype/2.6.3@lasote/stable:8595dc59d1be4605bce817aebc85081d18dc1917
+    glew/2.0.0@coding3d/stable:63da998e3642b50bee33f4449826b2d623661505
+    glm/0.9.8.0@TimSimpson/testing:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    libpng/1.6.21@lasote/stable:ee5dab950b6ea94ae953b93c55343e98c2ec39df
+    stb_image/2.12@dsobczyk/testing:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    zlib/1.2.8@lasote/stable:63da998e3642b50bee33f4449826b2d623661505
+
+[full_options]
+    SDL2:directx=False
+    SDL2:fPIC=True
+    SDL2:shared=True
+    SDL2_ttf:fPIC=True
+    SDL2_ttf:shared=False
+    bzip2:fPIC=True
+    bzip2:shared=False
+    freetype:fPIC=True
+    freetype:shared=False
+    glew:shared=False
+    libpng:shared=False
+    zlib:shared=False
+
+[scope]
+    dev=True
